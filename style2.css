@@ -1,0 +1,231 @@
+.btn{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.btn1{
+    border-radius: 15%;
+    background-color: #7fab3d; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.btn2{
+    color: #7fab3d;
+    background-color: white;
+    border: none;
+}
+/* danh sách sản phẩm */
+.product_list{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    /* grid-template-rows: repeat(3, 1fr);  */
+    margin: 0 auto;
+    row-gap: 20px; /* Khoảng cách giữa các hàng */
+    width: 75%;
+}
+.product{
+    position: relative;
+    border: 1px solid #a8a8a8;
+    width: fit-content;
+    /* Chỉ rộng vừa đủ nội dung */;
+}
+
+.sale{ 
+    color: gray;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sale p{
+    color: #30302d;
+}
+.price{
+    color: #7fab3d;
+}
+.img{
+    width:200px;
+    height: 75%;
+    padding-top: 40px;
+}
+.sale_1{
+    color: white;
+    position: absolute;
+    background-color: #7fab3d;
+    top: 0px; /* Khoảng cách từ đỉnh */
+    left: 0px; /* Khoảng cách từ bên trái */
+    padding: 1px 10px;
+}
+/* list */
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.list_1{
+    border: 1px solid #a8a8a8;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a8a8a8;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #7fab3d; /* Green */
+    color: white;
+
+}
+/* kết thúc sản phẩm */
+/* bắt đầu trang bìa  */
+/* Thông tin liên lạc cơ bản */
+.contactinfo{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    Color: white;
+    background-color: #7fab3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding: 5px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-indent: 20px;
+    flex-wrap: wrap;
+    padding-right: 100px;
+}
+.contactinfo i{
+    margin-right: 8px;
+}
+.contactinfo p{
+    margin: 0;
+}
+/* Thanh menu */
+.thanhmenu{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px
+}
+.thanhmenu h2{
+    color: #7fab3d;
+    font-size: 20px;
+    padding-left: 40px;
+    font-weight: 900;
+}
+.thanhmenu p{
+    font-size: 13px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.thanhmenu i{
+    cursor: pointer;
+    padding-right: 80px;
+}
+.menu-item{
+    display: flex;
+    padding-left: 700px;
+    gap: 40px;
+}
+/* Trang bìa ở menu */
+.trangbia1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.trangbia1 img {
+    width: 100%;
+    height: auto;
+   
+}
+.trangbia1 .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.trangbia1 .content h1 {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 10px;
+}
+
+
+.trangbia1 .content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hieuung {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #7fab3d;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size:15px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hieuung:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+a {
+    text-decoration: none;
+}
+/* // Bắt đầu footer */
+.footer{
+    padding: 20px;
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    justify-content: space-around; 
+}
+.footer_1{
+    width: 25%;
+    word-wrap: break-word; /* Ngắt dòng khi cần thiết */
+}
+.icon{
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    font-size: 25px;
+}
+.footer_5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+    row-gap: 20px; /* Khoảng cách giữa các hàng */
+}
+.footer_6{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+}
+/* // Kết thúc footer */

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css" />
+    <script src="https://kit.fontawesome.com/b9042f2052.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- Thông tin liên lạc cơ bản -->
+<div class="contactinfo">
+    <p><i class="fa-solid fa-phone"></i> +1235 2355 98</p>
+    <p><i class="fa-solid fa-paper-plane"></i></i> YOUREMAIL@EMAIL.COM</p>
+    <p>3-5 BUSINESS DAY DELIVERY & FREE RETURNS</p>
+</div>
+<!-- Thanh menu -->
+<div class="thanhmenu">
+    <h2>VEGEFOODS</h2>
+    <div class="menu-item">
+        <a href="index.html"><p>HOME</p></a>
+        <a href ="shop.html"><p>SHOP</p></a>
+    </div>
+    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+</div>
+<!-- Trang bìa ở menu -->
+<div class="trangbia1">
+    <img src="https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg" alt="Ảnh bìa">
+    <div class="content">
+        <h1>WE SERVE FRESH VEGETABLES & FRUITS</h1>
+        <p>WE DELIVER ORGANIC VEGETABLES & FRUITS</p>
+        <a href="" class="hieuung">Shop now</a>
+    </div>
+</div>
+<!-- thanh toán -->
+    <div class ="container" id ="billing-form">
+        <form id="billing-form">
+            <h2>Billing Details</h2>
+            <div class ="form">
+                <div class ="from-group">
+                    <label for ="firstName">First Name</label>
+                    <input type ="text" id ="firstName"/>
+                </div>
+                <div class ="from-group">
+                    <label for ="lastName">Last Name</label>
+                    <input type ="text" id ="lastName"/>
+                </div>
+            </div>
+
+            <div class ="form-group">
+                <label for="country">State / Country</label>
+                <select id="country">
+                    <option value="france">France</option>
+                    <option value="italy">Italy</option>
+                    <option value="philippines">Philippines</option>
+                    <option value="south-korea">South Korea</option>
+                    <option value="hongkong">Hongkong</option>
+                    <option value="japan">Japan</option>
+                </select>
+            </div>
+
+            <div class ="form">
+                <div class ="form-group">
+                    <label for="street">Street Address</label>
+                    <input type="text" id="street" placeholder="House number and street name" />
+                </div>
+                <div class="form-group">
+                    <label for="apt">Apartment</label>
+                    <input type="text" id="apt" placeholder="Appartment, suite, unit etc: (optional)" />
+                </div>
+            </div>
+
+            <div class ="form-row">
+                <div class="form-group">
+                    <label for="city">Town / City</label>
+                    <input type="text" id="city" />
+                </div>
+                <div class="form-group">
+                    <label for="zip">Postcode / ZIP *</label>
+                    <input type="text" id="zip" />
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" />
+                </div>
+                <button type="submit">Gửi</button>
+            </div>
+
+            <div class="options">
+                <label><input type="radio" name="option" /> Create an Account?</label>
+                <label><input type="radio" name="option" /> Ship to different address</label>
+            </div>
+        </form>
+
+        <div class="summary">
+            <div class="cart-total">
+                <h3>Cart Total</h3>
+                <div class="line"><span>Subtotal</span><span>$20.60</span></div>
+                <div class="line"><span>Delivery</span><span>$0.00</span></div>
+                <div class="line"><span>Discount</span><span>$3.00</span></div>
+                <div class="line-total"><strong>TOTAL</strong><span><strong>$17.60</strong></span></div>
+            </div>
+      
+            <div class="payment-method">
+                <h3>Payment Method</h3>
+                <label><input type="radio" name="payment" /> Direct Bank Tranfer</label><d>
+                <label><input type="radio" name="payment" /> Check Payment</label><br>
+                <label><input type="radio" name="payment" /> Paypal</label><br>
+                <label><input type="checkbox" /> I have read and accept the terms and conditions</label><br>
+                <button class ="place">Place an order</button>
+            </div>
+        </div>
+    </div>
+<!-- giỏ hàng -->
+<div class="cart-header">
+    <div>Product name</div>
+    <div>Price</div>
+    <div>Quantity</div>
+    <div>Total</div>
+</div>
+  
+<div class="cart-item">
+    <div class="product">
+        <button class="remove-btn">×</button>
+        <img src="img/product-3.jpg" alt="Green Bell Pepper" />
+        <div>
+            <h4>Bell Pepper</h4>
+            <p>Far far away, behind the word mountains,<br>far from the countries</p>
+        </div>
+    </div>
+    <div class="price">$4.90</div>
+    <div class="quantity"><input type="number" value="1" /></div>
+    <div class="total">$4.90</div>
+</div>
+  
+<div class="cart-item">
+    <div class="product">
+        <button class="remove-btn">×</button>
+        <img src="img/product-4.jpg" alt="Purple Bell Pepper" />
+        <div>
+            <h4>Bell Pepper</h4>
+            <p>Far far away, behind the word mountains,<br>far from the countries</p>
+        </div>
+    </div>
+    <div class="price">$15.70</div>
+    <div class="quantity"><input type="number" value="1" /></div>
+    <div class="total">$15.70</div>
+</div>
+  
+<div class="summary">
+    <div class="cart-total">
+        <h3>Cart Total</h3>
+        <div class="line"><span>Subtotal</span><span>$20.60</span></div>
+        <div class="line"><span>Delivery</span><span>$0.00</span></div>
+        <div class="line"><span>Discount</span><span>$3.00</span></div>
+        <div class="line-1"><strong>TOTAL</strong><strong>$17.60</strong></div>
+    </div>
+
+    <div class="payment-method">
+        <h3>Payment Method</h3>
+        <label><input type="radio" name="payment" /> Direct Bank Tranfer</label><br>
+        <label><input type="radio" name="payment" /> Check Payment</label><br>
+        <label><input type="radio" name="payment" /> Paypal</label><br>
+        <label><input type="checkbox" /> I have read and accept the terms and conditions</label><br>  
+        <!-- Nút "Place an order" chuyển đến phần thanh toán -->       
+        <a href="#billing-form" class="place-btn">Place an order</a>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
